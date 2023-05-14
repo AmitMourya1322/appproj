@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 213, 0);
+  align-items: center;
+}
+.link{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  width:15%;
+  
+}
+/* .mainContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.container{
+ 
+  width: 100vw;
+  max-width: 600px;
+  padding: 2em 1.5em;
+  background-color: #ef4c4c;
+  margin: 1em auto;
+  border-radius: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ margin-top: 10%;
+}
+
+a{
+  text-decoration: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+ 
+  
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1rem;
+}
+
+td {
+  padding: 0.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+.formContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.loadingSpinnerContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingSpinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #000 transparent #555 transparent;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+.newForm{
+  margin-left: 540px;
+}
